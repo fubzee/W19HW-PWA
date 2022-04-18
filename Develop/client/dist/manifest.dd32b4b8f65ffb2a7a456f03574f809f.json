@@ -1,0 +1,20 @@
+{
+  "name": "App",
+  "short_name": "App",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "logo": [
+    {
+      "src": "C:\\Users\\fubze\\OneDrive\\Desktop\\W19HW-PWA\\Develop\\client\\src\\images\\logo.png",
+      "sizes": [
+        96,
+        128,
+        192,
+        256,
+        384,
+        512
+      ]
+    }
+  ]
+}
