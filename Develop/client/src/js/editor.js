@@ -20,7 +20,6 @@ export default class {
       autofocus: true,
       indentUnit: 2,
       tabSize: 2,
-     
     });
 
     // When the editor is ready, set the value to whatever is stored in indexeddb.
@@ -28,7 +27,6 @@ export default class {
     getDb().then((data) => {
       console.info('Loaded data from IndexedDB, injecting into editor',data);
       this.editor.setValue(data || localData || header);
-     
     });
 
     this.editor.on('change', () => {

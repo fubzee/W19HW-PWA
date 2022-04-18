@@ -9,7 +9,6 @@ module.exports = () => {
     entry: {
       install: './src/js/install.js',
       main: './src/js/index.js',
-      
     },
     output: {
       filename: '[name].bundle.js',
