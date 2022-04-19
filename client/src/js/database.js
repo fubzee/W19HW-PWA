@@ -17,7 +17,7 @@ export const putDb = async (content) => {
   const jateDb = await openDB('jate',1);
   const tx = jateDb.transaction('jate','readwrite');
   const store = tx.objectStore('jate');
-  const request = store.add({ jate: content });
+  const request = store.put({ id: 1, value: content });
   const result = await request;
   if (!result) {return console.error('putDb not implemented')};
   console.log('🚀 - data saved to the database', result);
@@ -32,7 +32,7 @@ export const getDb = async () => {
   const result = await request;
   let listitem = ' ';
   for (let data of result) {
-    listitem += `${data.jate}`
+    listitem += `${data.value}`
   }
   return listitem;
 };
