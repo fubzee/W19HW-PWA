@@ -32,7 +32,7 @@ export const getDb = async () => {
   const result = await request;
   let listitem = ' ';
   for (let data of result) {
-    listitem += `${data.id} ${data.jate}`
+    listitem += `${data.jate}`
   }
   return listitem;
 };
