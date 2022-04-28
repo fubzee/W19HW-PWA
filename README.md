@@ -1,8 +1,6 @@
  # 19 Progressive Web Applications (PWA): Text Editor
 
->>>>> link to Heroku here 
-
-
+https://j8-app.herokuapp.com/
 
 https://github.com/fubzee/W19HW-PWA
 
